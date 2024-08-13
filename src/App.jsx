@@ -4,7 +4,7 @@ import { HyperElements } from "@juspay-tech/react-hyper-js";
 import './App.css';
 import CheckoutForm from "./CheckoutForm";
 
-const hyperPromise = loadHyper("HYPERSWITCH_PUBLISHABLE_KEY");
+const hyperPromise = loadHyper("pk_snd_24622651591249df84ba879c10e53a70");
 
 function App() {
   const [options, setOptions] = useState(null);

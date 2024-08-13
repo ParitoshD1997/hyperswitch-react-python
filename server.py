@@ -32,7 +32,8 @@ def create_payment():
     headers = {
       'Content-Type': "application/json",
       'Accept': "application/json",
-      'api-key': "HYPERSWITCH_API_KEY",
+      'api-key': "snd_Gs85itesIDRvShHX712PVHncnufybpXBg5KnbXfVteWSuiBC4O5rY5CnM6aNnQVT
+",
     }
     conn.request("POST", "/payments", payload, headers)
     res = conn.getresponse()
